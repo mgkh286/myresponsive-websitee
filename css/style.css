@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* height: 1200px; */
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+/* navbar */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(228, 59, 191);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%; 
+    position: fixed;
+    top: 0;
+    left: 0; 
+}
+
+.header h1 a{
+    color: #ffffffaf;
+    margin-left: 3rem;
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 3rem;
+}
+
+.navbar-items .navbar-item {
+    margin-right: 2rem;
+    font-size: 1.2rem;
+}
+
+
+.navbar-items .navbar-item a {
+    color: #444;
+}
+
+.navbar-items .navbar-item a:hover {
+    color: #fff;
+}
+
+.btn {
+    background-color: #ffffffaf;
+    padding: 0.3rem 1rem;
+    border-radius: 1rem;
+}
+
+.btn:hover {
+    background: #9e989849;
+    color: #fff;
+    border-radius: 1rem;
+    transition: all 3s ease-in-out;
+}
+
+ /* section banner */
+ .banner {
+     background: url(/img/bkg.jpg);
+     background-size: cover;
+     background-position: top center;
+     background-attachment: fixed;
+     height: 600px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     letter-spacing: 3px;
+     color: #ebdbdb;
+ }
+
+ .banner h3 {
+     font-size: 2.5rem;
+     font-weight: 700;
+     background: #5748487a;
+     padding: 2rem 1rem;
+     margin: 1rem;
+ }
+
+ .banner p{
+    font-size: 1.5rem;
+    padding: 1.5rem 1rem;
+    font-weight: 500;
+    background: #41363669;
+ }
+
+ .btn-big {
+     display: inline-block;
+    padding: 1.5rem 2rem;
+     font-size: 1.5rem;
+     font-weight: 400;
+     text-align: center;
+     background-color: #e43bbfa4;
+     color: #fff;
+     border-radius: 30px;
+     margin-top: 2rem;
+ }
+
+ .btn-big:hover {
+     background: #ffffffc2;
+     color: #444444f6;
+     font-size: 1.5rem;
+     transition: all 3s ease-in-out;
+ }
+
+ /* myprojects section  */
+
+ .myprojects {
+    background: #E43BBF;
+    text-align: center;
+    padding: 5rem 3rem;
+    color: #fff;
+    letter-spacing: 3px;
+ }
+
+
+
+.main-header {
+    padding: 1.5rem 0;
+ } 
+
+ .main-header h2 {
+     font-size: 3rem;
+     margin-bottom: 1rem;
+     font-weight: 700;
+ }
+
+ .main-header p {
+     font-size: 1.5rem;
+     margin-bottom: 2rem;
+     font-weight: 400;
+ }
+
+ .myprojects-icons {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     font-size: 2rem;
+ }
+
+ .myprojects-icons .myprojects-icon{
+     border: 2px solid #c4aaaa;
+     /* color: #444; */
+     margin-right: 3rem;
+     padding: 2rem 1rem;
+ }
+
+ /* fa icons */
+
+ .icon.rounded.color1 {
+    background-color: #3cadd4;
+}
+
+.icon.rounded.color6 {
+    background-color: #d43c61;
+}
+
+ .icon.rounded.color9 {
+    background-color: green;
+}
+
+.icon.rounded.big {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.icon.rounded {
+    background-color: #383b43;
+    border-radius: 50%;
+    color: #ffffff;
+    display: inline-block;
+    height: 2.25em;
+    line-height: 3.25em;
+    text-align: center;
+    width: 2.25em;
+}
+
+.icon:active, .icon:hover {
+    text-decoration: none;
+}
+
+ .myprojects-icons h3 {
+     font-size: 2rem;
+     margin-bottom: 1.5rem;
+ }
+
+ .myprojects-icons p {
+     font-size: 1.3rem;
+ }
+
+ /* customer section  */
+
+.customer-container {
+    padding: 6rem 4rem;
+    background: #656b6d;
+    text-align: center;
+    color: #fff;
+}
+
+ .customer-vision {
+    letter-spacing: 3px;
+ }
+
+ .customer-vision h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+ }
+
+ .customer-vision p {
+   font-size: 2rem;
+   margin-bottom: 3rem;
+}
+
+ .profile-img {
+     display: block;
+     border-radius: 50%;
+     transition: all 5s ease-in-out;
+ }
+
+
+ .profiles {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-bottom: 1rem;
+     border-top: 2px solid #444;
+     border-bottom: 2px solid #444;
+     padding: 2rem 0;
+ }
+
+ .profile h4 {
+     font-size: 1.5rem;
+     margin-top: 1rem;
+ }
+
+ .profile p {
+     font-size: 1rem;
+     margin-top: 1rem;
+ }
+
+ .profile-text {
+     padding: 3rem 2rem;
+     font-size: 1.5rem;
+     letter-spacing: 2px;
+ }
+ 
+ .profile-text p {
+     margin-bottom: 2rem;
+ }
+
+ /* <!-- signup-section  --> */
+
+ .signup {
+     background:url(/img/pic03.jpg);
+     background-attachment: fixed;
+     text-align: center;
+     padding: 7rem 3rem;
+     color: #fff;
+ }
+
+ .signup-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+ }
+
+ .signup-header p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+ }
+
+ .signup-form__action {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 1.5rem;
+ }
+
+ .signup-form__action .signup-form__email {
+     margin-left: 1rem;
+ }
+
+ input[type=text] {
+    width: 100%;
+    padding: 0.5rem 2.5rem;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 100%; 
+    background-color: #fff;
+ }
+
+ input[type="submit"] {
+     margin-top: 1.5rem;
+    padding: 1rem 2rem;
+    font-family: inherit;
+    font-size: 1.2rem;
+    background-color: #E43BBF;
+    color: #fff;
+    border-radius: 1rem;
+}
+
+input[type="submit"]:hover{
+    background-color: #48d3e6;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: all 3s ease-in-out;
+}
+
+ textarea {
+    font-family: inherit;
+    font-size: 100%;
+    width: 45%;
+    border-radius: 5px;
+ }
+
+ 
+
+ input[type=text]:focus {
+    border: 3px solid #706b6b;
+  }
+
+  /* footer  */
+.footer {
+    background: #0e1015;
+    color: #fff;
+    padding: 5rem 1.5rem;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright span:hover {
+    color: #3a52bf;
+}
+
+.social__icons a{
+    color: #fff;
+    margin-left: 1rem;
+    font-size: 1.4rem;
+    transition: all .3s ease-out;
+}
+
+
+.social__icons a:hover {
+    color: #3a52bf;
+    transform: scale(1.08);
+}
+

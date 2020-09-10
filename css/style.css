@@ -76,7 +76,7 @@ img {
 
  /* section banner */
  .banner {
-     background: url(img/bkg.jpg);
+     background: url('/img/bkg.jpg');
      background-size: cover;
      background-position: top center;
      background-attachment: fixed;
@@ -167,6 +167,12 @@ img {
 
  /* fa icons */
 
+ .icon {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-left: 25%;
+ }
  .icon.rounded.color1 {
     background-color: #3cadd4;
 }
@@ -188,7 +194,6 @@ img {
     background-color: #383b43;
     border-radius: 50%;
     color: #ffffff;
-    display: inline-block;
     height: 2.25em;
     line-height: 3.25em;
     text-align: center;
@@ -210,6 +215,8 @@ img {
 
  /* customer section  */
 
+
+ 
 .customer-container {
     padding: 6rem 4rem;
     background: #656b6d;
@@ -222,7 +229,7 @@ img {
  }
 
  .customer-vision h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
  }
 
@@ -232,14 +239,15 @@ img {
 }
 
  .profile-img {
-     display: block;
-     border-radius: 50%;
+     display: inline-block;
+     border-radius: 50%; 
      transition: all 5s ease-in-out;
  }
 
 
  .profiles {
      display: flex;
+     background: #656b6d;
      justify-content: space-around;
      align-items: center;
      margin-bottom: 1rem;
@@ -271,8 +279,9 @@ img {
  /* <!-- signup-section  --> */
 
  .signup {
-     background:url(img/pic03.jpg);
+     background:url(/img/pic03.jpg);
      background-attachment: fixed;
+     background-repeat: no-repeat;
      text-align: center;
      padding: 7rem 3rem;
      color: #fff;

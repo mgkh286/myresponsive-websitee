@@ -27,7 +27,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgb(228, 59, 191);
+    background: #e43bbf;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 100%; 
     position: fixed;
@@ -76,7 +76,7 @@ img {
 
  /* section banner */
  .banner {
-     background: url('/img/bkg.jpg');
+     background: url('/img/bkg1.jpg');
      background-size: cover;
      background-position: top center;
      background-attachment: fixed;
@@ -279,7 +279,7 @@ img {
  /* <!-- signup-section  --> */
 
  .signup {
-     background:url(/img/pic03.jpg);
+     background:url(/img/pic3.jpg);
      background-attachment: fixed;
      background-repeat: no-repeat;
      text-align: center;

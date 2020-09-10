@@ -76,7 +76,7 @@ img {
 
  /* section banner */
  .banner {
-     background: url(/img/bkg.jpg);
+     background: url(img/bkg.jpg);
      background-size: cover;
      background-position: top center;
      background-attachment: fixed;
@@ -271,7 +271,7 @@ img {
  /* <!-- signup-section  --> */
 
  .signup {
-     background:url(/img/pic03.jpg);
+     background:url(img/pic03.jpg);
      background-attachment: fixed;
      text-align: center;
      padding: 7rem 3rem;

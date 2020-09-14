@@ -233,30 +233,27 @@ img {
 
 
  
-.customer-container {
-    padding: 6rem 4rem;
+.customers-list {
+    padding: 5rem 3rem;
     background: #656b6d;
     text-align: center;
     color: #fff;
 }
 
- .customer-vision {
-    letter-spacing: 3px;
- }
-
  .customer-vision h2 {
     font-size: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
  }
 
  .customer-vision p {
-   font-size: 2rem;
+   font-size: 1.2rem;
    margin-bottom: 3rem;
 }
 
  .profile-img {
      display: inline-block;
      border-radius: 50%; 
+     border: 2px solid #444;
      transition: all 5s ease-in-out;
  }
 
@@ -273,7 +270,7 @@ img {
  }
 
  .profile h4 {
-     font-size: 1.5rem;
+     font-size: 1.2rem;
      margin-top: 1rem;
  }
 
@@ -283,13 +280,13 @@ img {
  }
 
  .profile-text {
-     padding: 3rem 2rem;
-     font-size: 1.5rem;
+     padding: 2rem 0;
+     font-size: 1rem;
      letter-spacing: 2px;
  }
  
  .profile-text p {
-     margin-bottom: 2rem;
+     margin-bottom: 4rem;
  }
 
  /* <!-- signup-section  --> */
@@ -298,6 +295,7 @@ img {
      background-image: url(../img/pic4.jpg);
      background-attachment: fixed;
      background-repeat: no-repeat;
+     background-size: cover;
      text-align: center;
      padding: 7rem 3rem;
      
@@ -334,18 +332,19 @@ img {
  }
 
  input[type="submit"] {
-     margin-top: 1.5rem;
+     margin-top: 2rem;
     padding: 1rem 2rem;
     font-family: inherit;
     font-size: 1.2rem;
     background-color: #E43BBF;
     color: #fff;
-    border-radius: 1rem;
+    border-radius: 1.2rem;
+    border: 2px solid #444;
 }
 
 input[type="submit"]:hover{
-    background-color: #48d3e6;
-    color: #fff;
+    background-color: #c4aaaa;
+    color: #444;
     border: 2px solid #fff;
     transition: all 3s ease-in-out;
 }
@@ -353,7 +352,7 @@ input[type="submit"]:hover{
  textarea {
     font-family: inherit;
     font-size: 100%;
-    width: 45%;
+    width: 50 %;
     border-radius: 5px;
  }
 

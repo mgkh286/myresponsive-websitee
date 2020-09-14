@@ -22,13 +22,16 @@
                     <a href="#">Home</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="#">About</a>
+                    <a href="#contact">contact</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#customers">Customers</a>
                 </li>
                 <li class="navbar-item">
                     <a href="#myprojects">Projects</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="#" class="btn special">Sign Up</a>
+                    <a href="#signup" class="btn special">Sign Up</a>
                 </li>
             </ul>
         </nav>
@@ -42,7 +45,7 @@
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
         </p>
        
-        <a href="#" class="btn-big">Contact Us</a>
+        <a href="#contact" class="btn-big">Contact Us</a>
           
     </section>
     <!-- my work section  -->
@@ -81,8 +84,8 @@
     </section>
 
     <!-- customers section  -->
-    <section class="customers">
-        <div class="customer-container">
+    <section class="customers" id="customers">
+        <div class="customers-list">
           <div class="container">
             <div class="customer-vision">
                 <h2>Customers</h2>
@@ -94,18 +97,18 @@
                 <div class="profiles">
                     <div class="profile">
                         <img src="img/img3.jpg" class="profile-img" alt="img3">
-                        <h4>Jack Reacher</h4>
+                        <h4>man Reacher</h4>
                         <p>Lorem ipsum dolor sit.</p>
                     </div>
                 <div class="profile">
                     <img src="img/img4.jpg" class="profile-img" alt="img4">
-                    <h4>Jack Reacher</h4>
+                    <h4>lady Reacher</h4>
                     <p>Lorem ipsum dolor sit.</p>
                 </div>
 
                 <div class="profile">
                     <img src="img/img5.jpg" class="profile-img" alt="img5">
-                    <h4>Jack Reacher</h4>
+                    <h4>marko Reacher</h4>
                     <p>Lorem ipsum dolor sit lore.</p>
                 </div>
 
@@ -121,9 +124,7 @@
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dolore illum, temporibus veritatis eligendi, aliquam, dolor enim itaque veniam aut eaque sequi qui quia vitae pariatur repudiandae ab dignissimos ex!
                 </p>
-                <div class="btn special">
-                    <a href="#">See More About</a>
-                </div>
+                    <a href="#customers" class="btn-big">See More</a>
             </div>
         </div>
         </div>
@@ -131,10 +132,10 @@
 
     <!-- signup-section  -->
 
-    <section class="signup">
+    <section class="signup" id="signup">
         <div class="container">
             <header class="signup-header">
-                <h2>Consectetur adipisicing elit</h2>
+                <h2>Sign Up</h2>
                 <p>
                     Lorem ipsum dolor sit amet. Delectus consequatur, similique quia!
                 </p>
@@ -153,7 +154,7 @@
                         <textarea name="message" id="message" placeholder="Message" rows="6"></textarea>
                     </div>
                     <div class="signup-form__btn">
-                        <input value="Send Message" class="special big" type="submit">
+                        <input value="Send Message" id="#contact" type="submit">
                     </div>
                 </form>
             </div>
@@ -162,7 +163,7 @@
 
     <!-- footer  -->
 
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <div class="container">
         <section class="copyright">
             Theme by <span>HM</span> Powered By Web
